@@ -12,14 +12,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Wisata Candi',
-      theme: ThemeData(
-        colorScheme: .fromSeed(seedColor: Colors.deepPurple),
-      ),
+      theme: ThemeData(colorScheme: .fromSeed(seedColor: Colors.deepPurple)),
       home: DetailScreen(),
     );
   }
 }
-
 
 class DetailScreen extends StatelessWidget {
   const DetailScreen({super.key});
@@ -29,4 +26,3 @@ class DetailScreen extends StatelessWidget {
     return const Placeholder();
   }
 }
-
